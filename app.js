@@ -8,3 +8,5 @@ wind.on('scroll', function() {
         sticky.addClass('sticky-top');
     }
 });
+
+$('.parallax-window').parallax({ imageSrc: 'img/exported-header-bg.png' });
