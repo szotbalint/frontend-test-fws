@@ -17,7 +17,7 @@ body {
 }
 
 #stickyHeader {
-    background-color: transparent !important;
+    background: transparent !important;
 }
 
 .navbar-toggler {
@@ -37,7 +37,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: 0px;
+    top: -55px;
+    width: 100%;
 }
 
 .bg-light {
@@ -76,6 +77,7 @@ body {
 
 .main-title-text {
     font-family: Playfair Display;
+    text-transform: capitalize;
 }
 
 @media (min-width: 576px) {}
