@@ -5,7 +5,7 @@ body {
 
 .left-side-menu {
     transform: rotate(90deg);
-    top: 125px;
+    top: 200px;
 }
 
 .hover-effect:hover {
@@ -43,6 +43,39 @@ body {
 .bg-light {
     background-color: transparent !important;
     background: transparent !important;
+}
+
+.logo {
+    font-size: 22px !important;
+    font-family: Playfair Display;
+}
+
+.line {
+    width: 72px;
+    height: 2px;
+    background: #FBD784;
+}
+
+.line-text {
+    font-family: Montserrat;
+}
+
+.main-title {
+    padding-top: 80px !important;
+}
+
+.gold-text {
+    color: #FBD784;
+}
+
+.navbar {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-title-text {
+    font-family: Playfair Display;
 }
 
 @media (min-width: 576px) {}
