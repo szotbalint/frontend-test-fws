@@ -5,7 +5,7 @@ body {
 
 .left-side-menu {
     transform: rotate(90deg);
-    top: 105px;
+    top: 125px;
 }
 
 .hover-effect:hover {
@@ -30,7 +30,6 @@ body {
 }
 
 .parallax {
-    /*background-image: url("https://cdn4.buysellads.net/uu/1/72681/1600956571-1600918111-260x200-concierge-carbon-ads-dev.png");*/
     background-image: url("img/exported-header-bg.png");
     min-height: 1000px;
     background-attachment: fixed;
@@ -53,7 +52,7 @@ body {
 @media (min-width: 992px) {
     .account-item {
         position: absolute;
-        top: 0;
+        top: 10px;
         right: 50px;
     }
 }
@@ -61,7 +60,7 @@ body {
 @media (min-width: 1200px) {
     .account-item {
         position: absolute;
-        top: 0;
+        top: 10px;
         right: 50px;
     }
 }
