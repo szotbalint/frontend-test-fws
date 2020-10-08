@@ -16,15 +16,6 @@ body {
     list-style-type: none;
 }
 
-.account {
-    color: white;
-}
-
-.account:hover {
-    text-decoration: none;
-    color: white;
-}
-
 #stickyHeader {
     background-color: transparent !important;
 }
@@ -47,5 +38,30 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    top: -57px;
+    top: 0px;
+}
+
+.bg-light {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .account-item {
+        position: absolute;
+        top: 0;
+        right: 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .account-item {
+        position: absolute;
+        top: 0;
+        right: 50px;
+    }
 }
