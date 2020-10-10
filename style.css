@@ -1,6 +1,14 @@
 body {
     background-color: #0B1D26 !important;
     color: white !important;
+    font-family: 'Sans Serif', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .left-side-menu {
@@ -51,7 +59,7 @@ body {
 }
 
 .line {
-    width: 72px;
+    width: 85px;
     height: 2px;
     background: #FBD784;
 }
@@ -109,15 +117,111 @@ body {
     transform: translateY(0);
 }
 
-@media (min-width: 576px) {}
+.number {
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1111111;
+    opacity: 0.1;
+    font-size: 200px;
+    line-height: 100%;
+    font-weight: 700;
+}
 
-@media (min-width: 768px) {}
+.line-part {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line-and-text {
+    top: 100px;
+    left: 136px;
+}
+
+.scroll-down {
+    text-decoration: none;
+    color: white;
+}
+
+.scroll-down:hover {
+    color: #fbd784;
+}
+
+.slow {
+    -vendor-animation-duration: 3s;
+    -vendor-animation-delay: 1s;
+}
+
+.get-started {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.header-two {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 110%;
+}
+
+.texting {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.read-more {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media (max-width: 576px) {
+    .left-side-menu {
+        top: 87px;
+        left: -36px;
+        opacity: 0.5;
+    }
+    .left-side-menu:hover,
+    .left-side-menu:focus {
+        opacity: 0.9;
+    }
+}
+
+@media (min-width: 768px) {
+    .left-side-menu {
+        top: 87px;
+        left: -36px;
+        opacity: 0.5;
+    }
+    .left-side-menu:hover,
+    .left-side-menu:focus {
+        opacity: 0.9;
+    }
+}
 
 @media (min-width: 992px) {
     .account-item {
         position: absolute;
         top: 10px;
         right: 50px;
+    }
+    .left-side-menu {
+        top: 87px;
+        left: -36px;
+        opacity: 0.5;
+    }
+    .left-side-menu:hover,
+    .left-side-menu:focus {
+        opacity: 0.9;
     }
 }
 
