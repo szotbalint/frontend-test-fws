@@ -1,1 +1,1 @@
-# frontend-test-excercise
+# frontend-test-exercise
