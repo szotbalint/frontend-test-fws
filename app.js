@@ -1,3 +1,6 @@
+AOS.init();
+
+
 var wind = $(window);
 var sticky = $("#stickyHeader");
 wind.on('scroll', function() {
@@ -10,20 +13,3 @@ wind.on('scroll', function() {
 });
 
 $('.parallax-window').parallax({ imageSrc: 'img/exported-header-bg.png' });
-
-(function($) {
-    $(document).ready(function() {
-        $.jScrollability([{
-            'selector': '.reveal-demo',
-            'start': '.row',
-            'end': '.col-6',
-            'fn': {
-                'top': {
-                    'start': 100,
-                    'end': 15,
-                    'unit': '%'
-                }
-            }
-        }]);
-    });
-})(jQuery);
