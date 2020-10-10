@@ -1,3 +1,4 @@
 # frontend-test-exercise
-<h1>w3 validator futtatva</h1>
+w3 validator futtatva
+header alatti parallax kép jobb összevágást igényelne.. (figma-ról csak több darabban lehetett kiexportálni)
 
