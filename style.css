@@ -66,6 +66,12 @@ html {
 
 .line-text {
     font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .main-title {
@@ -84,7 +90,13 @@ html {
 
 .main-title-text {
     font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100px;
     text-transform: capitalize;
+    align-self: center;
+    flex-grow: 0;
 }
 
 .hvr-sink:hover {
@@ -137,6 +149,7 @@ html {
 .line-and-text {
     top: 100px;
     left: 136px;
+    color: #FBD784;
 }
 
 .scroll-down {
@@ -182,6 +195,24 @@ html {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
+    color: #FBD784;
+}
+
+.section-3 .text-wrapper {
+    max-width: 600px;
+    margin: auto;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 4%;
+}
+
+.section-3 .text-wrapper span {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+}
+
+.section-3 .text-wrapper span.visible {
+    opacity: 1;
 }
 
 @media (max-width: 576px) {
