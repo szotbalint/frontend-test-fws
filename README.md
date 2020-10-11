@@ -1,4 +1,5 @@
-# frontend-test-exercise
+# fws - Frontend fejlesztői feladat
+
 https://docs.google.com/document/d/1wmwFoR6jWXyFCxJhKVCBcUAuDWFFzHtuzgDc0fvhuRc/edit?usp=sharing <br>
 
 w3 validatorral ellenőrizve <br>
