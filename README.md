@@ -5,4 +5,3 @@ https://docs.google.com/document/d/1wmwFoR6jWXyFCxJhKVCBcUAuDWFFzHtuzgDc0fvhuRc/
 w3 validatorral ellenőrizve - 0 warning, error <br>
 navbar alatti parallax kép jobb összevágást igényelne PS-ben.. (figma-ról csak több darabban lehetett kiexportálni) <br>
 
-app.js nem tisztán ES6
