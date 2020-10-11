@@ -1,5 +1,5 @@
 # fws - Frontend fejlesztői feladat
-https://szotbalint.github.io/frontend-test-fws/
+# https://szotbalint.github.io/frontend-test-fws/
 
 https://docs.google.com/document/d/1wmwFoR6jWXyFCxJhKVCBcUAuDWFFzHtuzgDc0fvhuRc/edit?usp=sharing <br>
 
