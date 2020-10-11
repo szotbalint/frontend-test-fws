@@ -1,5 +1,6 @@
 # frontend-test-exercise
-w3 validator futtatva <br>
-header alatti parallax kép jobb összevágást igényelne.. (figma-ról csak több darabban lehetett kiexportálni) <br>
+https://docs.google.com/document/d/1wmwFoR6jWXyFCxJhKVCBcUAuDWFFzHtuzgDc0fvhuRc/edit?usp=sharing <br>
 
+w3 validatorral ellenőrizve <br>
+header alatti parallax kép jobb összevágást igényelne PS-ben.. (figma-ról csak több darabban lehetett kiexportálni) <br>
 
