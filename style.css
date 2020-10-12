@@ -238,9 +238,12 @@ html {
     .main-title-text>h1 {
         font-size: 44px !important;
     }
+    .parallax {
+        top: 0;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 577px) {
     .left-side-menu {
         top: 87px;
         left: -50px;
@@ -253,12 +256,15 @@ html {
     .main-title-text>h1 {
         font-size: 44px !important;
     }
+    .parallax {
+        top: 0;
+    }
 }
 
 @media (min-width: 992px) {
     .account-item {
         position: absolute;
-        top: 10px;
+        /*top: 10px;*/
         right: 50px;
     }
     .left-side-menu {
@@ -272,12 +278,18 @@ html {
     .main-title-text>h1 {
         font-size: 44px !important;
     }
+    .parallax {
+        top: 0;
+    }
+    .navbar {
+        background-color: #0B1D26;
+    }
 }
 
 @media (min-width: 1200px) {
     .account-item {
         position: absolute;
-        top: 10px;
+        /*top: 10px;*/
         right: 50px;
     }
     .main-title-text>h1 {
@@ -286,5 +298,18 @@ html {
     .left-side-menu {
         opacity: 1;
         left: 0;
+    }
+    .parallax {
+        background-image: url("img/exported-header-bg.png");
+        min-height: 940px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: -100px;
+    }
+    .navbar {
+        background-color: transparent !important;
     }
 }
