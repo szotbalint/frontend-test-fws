@@ -47,6 +47,7 @@ html {
     background-size: cover;
     position: relative;
     top: -100px;
+    width: 105%;
 }
 
 .title-col {
