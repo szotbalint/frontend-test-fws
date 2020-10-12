@@ -47,7 +47,6 @@ html {
     background-size: cover;
     position: relative;
     top: -100px;
-    width: 105%;
 }
 
 .title-col {
@@ -309,8 +308,5 @@ html {
         background-size: cover;
         position: relative;
         top: -100px;
-    }
-    .navbar {
-        background-color: transparent !important;
     }
 }
